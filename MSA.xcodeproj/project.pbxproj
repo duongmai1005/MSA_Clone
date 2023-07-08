@@ -12,12 +12,16 @@
 		13534EB52A5691E2000B89D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13534EB42A5691E2000B89D4 /* ViewController.swift */; };
 		13534EBA2A5691E4000B89D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13534EB92A5691E4000B89D4 /* Assets.xcassets */; };
 		13534EBD2A5691E4000B89D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13534EBB2A5691E4000B89D4 /* LaunchScreen.storyboard */; };
+		13D1047E2A598B180087B662 /* MSAHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D1047D2A598B180087B662 /* MSAHomeViewController.xib */; };
 		13E2F5F52A5697D7003375FC /* MSATabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E2F5F42A5697D7003375FC /* MSATabbarController.swift */; };
 		13E2F5F72A569A46003375FC /* MSAHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E2F5F62A569A46003375FC /* MSAHomeViewController.swift */; };
 		13E2F5F92A569A6F003375FC /* MSABillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E2F5F82A569A6F003375FC /* MSABillsViewController.swift */; };
 		13E2F5FB2A569A7D003375FC /* MSAInboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E2F5FA2A569A7D003375FC /* MSAInboxViewController.swift */; };
 		13E2F5FD2A569A93003375FC /* MSAActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E2F5FC2A569A93003375FC /* MSAActivityViewController.swift */; };
 		13E2F5FF2A569AA2003375FC /* MSAMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E2F5FE2A569AA2003375FC /* MSAMoreViewController.swift */; };
+		13E2F6052A56C0DF003375FC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E2F6042A56C0DF003375FC /* MenuView.swift */; };
+		13E2F6072A56C0ED003375FC /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E2F6062A56C0ED003375FC /* MenuView.xib */; };
+		13E2F6092A56C2D8003375FC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E2F6082A56C2D8003375FC /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +32,16 @@
 		13534EB92A5691E4000B89D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13534EBC2A5691E4000B89D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13534EBE2A5691E4000B89D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D1047D2A598B180087B662 /* MSAHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSAHomeViewController.xib; sourceTree = "<group>"; };
 		13E2F5F42A5697D7003375FC /* MSATabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSATabbarController.swift; sourceTree = "<group>"; };
 		13E2F5F62A569A46003375FC /* MSAHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAHomeViewController.swift; sourceTree = "<group>"; };
 		13E2F5F82A569A6F003375FC /* MSABillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSABillsViewController.swift; sourceTree = "<group>"; };
 		13E2F5FA2A569A7D003375FC /* MSAInboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAInboxViewController.swift; sourceTree = "<group>"; };
 		13E2F5FC2A569A93003375FC /* MSAActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAActivityViewController.swift; sourceTree = "<group>"; };
 		13E2F5FE2A569AA2003375FC /* MSAMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAMoreViewController.swift; sourceTree = "<group>"; };
+		13E2F6042A56C0DF003375FC /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		13E2F6062A56C0ED003375FC /* MenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		13E2F6082A56C2D8003375FC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +74,64 @@
 		13534EAF2A5691E2000B89D4 /* MSA */ = {
 			isa = PBXGroup;
 			children = (
+				13D1047A2A598A810087B662 /* Resources */,
+				13EC772F2A598A100010C2F5 /* View */,
 				13534EB02A5691E2000B89D4 /* AppDelegate.swift */,
-				13534EB22A5691E2000B89D4 /* SceneDelegate.swift */,
 				13534EB42A5691E2000B89D4 /* ViewController.swift */,
-				13534EB92A5691E4000B89D4 /* Assets.xcassets */,
+				13534EB22A5691E2000B89D4 /* SceneDelegate.swift */,
 				13534EBB2A5691E4000B89D4 /* LaunchScreen.storyboard */,
 				13534EBE2A5691E4000B89D4 /* Info.plist */,
+			);
+			path = MSA;
+			sourceTree = "<group>";
+		};
+		13D1047A2A598A810087B662 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13534EB92A5691E4000B89D4 /* Assets.xcassets */,
+				13E2F6082A56C2D8003375FC /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13D1047B2A598AA00087B662 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				13D1047F2A598B630087B662 /* HomeTab */,
 				13E2F5F42A5697D7003375FC /* MSATabbarController.swift */,
-				13E2F5F62A569A46003375FC /* MSAHomeViewController.swift */,
 				13E2F5F82A569A6F003375FC /* MSABillsViewController.swift */,
 				13E2F5FA2A569A7D003375FC /* MSAInboxViewController.swift */,
 				13E2F5FC2A569A93003375FC /* MSAActivityViewController.swift */,
 				13E2F5FE2A569AA2003375FC /* MSAMoreViewController.swift */,
 			);
-			path = MSA;
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		13D1047C2A598AFE0087B662 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		13D1047F2A598B630087B662 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				13E2F5F62A569A46003375FC /* MSAHomeViewController.swift */,
+				13D1047D2A598B180087B662 /* MSAHomeViewController.xib */,
+				13E2F6042A56C0DF003375FC /* MenuView.swift */,
+				13E2F6062A56C0ED003375FC /* MenuView.xib */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		13EC772F2A598A100010C2F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13D1047C2A598AFE0087B662 /* CustomView */,
+				13D1047B2A598AA00087B662 /* TabbarController */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E2F6092A56C2D8003375FC /* Colors.xcassets in Resources */,
+				13D1047E2A598B180087B662 /* MSAHomeViewController.xib in Resources */,
+				13E2F6072A56C0ED003375FC /* MenuView.xib in Resources */,
 				13534EBD2A5691E4000B89D4 /* LaunchScreen.storyboard in Resources */,
 				13534EBA2A5691E4000B89D4 /* Assets.xcassets in Resources */,
 			);
@@ -157,6 +212,7 @@
 				13E2F5FF2A569AA2003375FC /* MSAMoreViewController.swift in Sources */,
 				13E2F5F52A5697D7003375FC /* MSATabbarController.swift in Sources */,
 				13534EB12A5691E2000B89D4 /* AppDelegate.swift in Sources */,
+				13E2F6052A56C0DF003375FC /* MenuView.swift in Sources */,
 				13534EB32A5691E2000B89D4 /* SceneDelegate.swift in Sources */,
 				13E2F5FB2A569A7D003375FC /* MSAInboxViewController.swift in Sources */,
 				13E2F5F92A569A6F003375FC /* MSABillsViewController.swift in Sources */,
